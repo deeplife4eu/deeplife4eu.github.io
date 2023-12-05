@@ -9,7 +9,7 @@ permalink: /team/
 ### Contributors
 
 {% for article in site.data.team_members %}
-- <p> {{ article.name }} ({{ article.university }}) <br> contact: {{ article.email}}</p>
+- <p> {{ article.name }} ({{ article.university }}) </p>
 {% endfor %}
 
 ### Funding
