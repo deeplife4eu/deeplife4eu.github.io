@@ -16,7 +16,7 @@ We will use Zoom for live online lectures, and [Youtube](link) for pre-recorded 
 
 ### Practical Sessions {#Practical_sessions}
 
-You can find the lecture material for the practical sessions on [Github](link).
+You can find the lecture materials for the practical sessions on [Github](https://github.com/deeplife4eu/Lecture-materials).
 
 <br>
 <br>

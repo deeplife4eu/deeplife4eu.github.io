@@ -26,8 +26,8 @@ The course will end with a 2-day workshop and [hackathon meeting](#Hackathon) in
 Evaluation will be based on a final **online exam** and the assessment of **practical exercise assignments**. Successful participants will earn 4 ECTS credits.
 
 
-## Lecture Material
-The [Lecture Material]({{ site.url }}{{ site.baseurl }}/lecture_material) for the **practical sessions** can be found on [Github](link to Github). The **online lectures** are uploaded on [Youtube](YT link) (pre-recorded lectures) or take place via **Zoom** (live lectures).
+## Lecture Materials
+The [lecture materials]({{ site.url }}{{ site.baseurl }}/lecture_material) for the **practical sessions** can be found on [Github](https://github.com/deeplife4eu/Lecture-materials). The **online lectures** are uploaded on [Youtube](YT link) (pre-recorded lectures) or take place via **Zoom** (live lectures).
 
 <br>
 
@@ -267,6 +267,8 @@ Ahead of the course, we will provide a list of [prerequisites]({{ site.url }}{{ 
 ## Hackathon Meeting {#Hackathon}
 
 The course will end with a 2-day workshop and hackathon meeting in Heidelberg in **June 2024** during which students will be able to implement a short project and listen to scientific lectures.
+
+Feel free to post your project ideas [here](https://github.com/orgs/deeplife4eu/discussions/categories/ideas-for-hackathon-projects)! 
 
 <br>
 <br>
