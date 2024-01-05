@@ -10,7 +10,7 @@ permalink: /
 
 <figure>
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/DL_logo.jpg">
+<img src="{{ site.url }}{{ site.baseurl }}/images/DL_logo.jpg" width="40%">
 </center>
 </figure>
 
