@@ -38,7 +38,7 @@ The course format will comprise a [weekly 90-minute online lecture]({{ site.url 
 The course will end with a 2-day workshop and hackathon meeting in Heidelberg in June 2024 during which students will be able to implement a short project and listen to scientific lectures.
 
 ### Intended audience and evaluation
-DeepLife is designed for master’s students from the participating universities, as well as those enrolled in graduate schools. Evaluation will be based on a final online exam and the assessment of practical exercise assignments. Ahead of the course, we will provide a list of [prerequisites]({{ site.url }}{{ site.baseurl }}/lecture_material#Prerequisites) and the [relevant teaching resources]({{ site.url }}{{ site.baseurl }}/lecture_material#Relevant_teaching_resources) to cover fundamental concepts. Successful participants will earn 4 ECTS credits.
+DeepLife is designed for master’s students from the participating universities, as well as those enrolled in graduate schools. Evaluation will be based on a final online exam and the assessment of practical exercise assignments. Ahead of the course, we will provide a list of [prerequisites]({{ site.url }}{{ site.baseurl }}/Lecture_Material#Prerequisites) and the [relevant teaching resources]({{ site.url }}{{ site.baseurl }}/Lecture_Material#Relevant_teaching_resources) to cover fundamental concepts. Successful participants will earn 4 ECTS credits.
 
 ### Contact person for information
 Prof. Dr. Carl Herrmann – IPMB carl.herrmann@uni-heidelberg.de
