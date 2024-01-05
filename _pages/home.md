@@ -10,7 +10,7 @@ permalink: /
 
 <figure>
 <center>
-<img src="{{ site.url }}/images/DL_logo.pdf">
+<img src="{{ site.url }}/images/DL_logo.jpg">
 </center>
 </figure>
 
