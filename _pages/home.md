@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-## Deep Learning in Life Sciences (DeepLife)
+
 
 <figure>
 <center>
@@ -14,14 +14,15 @@ permalink: /
 </center>
 </figure>
 
+# Deep Learning in Life Sciences 
+
 <br>
 
-As part of the **Seed4EU+ action within the 4EU+ alliance of European university**, Heidelberg University will coordinate a joint course on Applications of Deep Learning in Life Sciences (DeepLife) involving the universities of Paris-Sorbonne, Warsaw, Prag, Milano and Heidelberg. The purpose of this course is to give an insight in the very active field of DL in the field of biomedicine and highlight recent examples of applications in three distinct areas: 
-<br>
-- single-cell genomics
-- protein bioinformatics
-- biomedical image analysis.
-<br>
+As part of the **Seed4EU+ action within the [4EU+ alliance](https://4euplus.eu/4EU-1.html) of European universities**, Heidelberg University will coordinate a joint course on Applications of Deep Learning in Life Sciences (DeepLife) involving the universities of Paris-Sorbonne, Warsaw, Prag, Milano and Heidelberg. The purpose of this course is to give an insight in the very active field of DL in the field of biomedicine and highlight recent examples of applications in three distinct areas: 
+
+1. single-cell genomics
+2. protein bioinformatics
+3. biomedical image analysis.
 
 ### Organization
 This course will be organized in 4 blocks over 14 weeks (start: week of 26.02.2024)
@@ -32,13 +33,17 @@ This course will be organized in 4 blocks over 14 weeks (start: week of 26.02.20
 4. DL in image analysis – 3 weeks
 <br>
 
-The course format will comprise a [weekly 90-minute online lecture]({{ site.url }}{{ site.baseurl }}/lecture_material#Online_lectures) and a [weekly hybrid (in-person/online) practical Python session]({{ site.url }}{{ site.baseurl }}/lecture_material#Practical_sessions). Lectures will be given by [teachers]({{ site.url }}{{ site.baseurl }}/team) from all participating universities. Lectures and practical exercises on all three application areas will be centered around one recent publication illustrating a specific application and method. You can check the [Program]({{ site.url }}{{ site.baseurl }}/program) for more details.
+Check the [program]({{ site.url }}{{ site.baseurl }}/program) for details.
+
+The course format will comprise a [weekly 90-minute online lecture]({{ site.url }}{{ site.baseurl }}/lecture_material#Online_lectures) and a [weekly hybrid (in-person/online) practical Python session]({{ site.url }}{{ site.baseurl }}/lecture_material#Practical_sessions). 
+
+Lectures will be given online by [teachers]({{ site.url }}{{ site.baseurl }}/team) from all participating universities. Lectures and practical exercises on all three application areas will be centered around one recent publication illustrating a specific application and method. 
 <br>
 
-The course will end with a 2-day workshop and hackathon meeting in Heidelberg in June 2024 during which students will be able to implement a short project and listen to scientific lectures.
+The course will end with a 2-day workshop and hackathon meeting in Heidelberg on **14-16 June 2024** during which students will be able to implement a short project and listen to scientific lectures.
 
 ### Intended audience and evaluation
-DeepLife is designed for master’s students from the participating universities, as well as those enrolled in graduate schools. Evaluation will be based on a final online exam and the assessment of practical exercise assignments. Ahead of the course, we will provide a list of [prerequisites]({{ site.url }}{{ site.baseurl }}/Lecture_Material#Prerequisites) and the [relevant teaching resources]({{ site.url }}{{ site.baseurl }}/Lecture_Material#Relevant_teaching_resources) to cover fundamental concepts. Successful participants will earn 4 ECTS credits.
+DeepLife is designed for master’s students from the participating universities, as well as those enrolled in graduate schools. Evaluation will be based on a final online exam and the assessment of practical exercise assignments. Ahead of the course, participants are expected to fresh-up their knowledge on basic notions. Check the list of [prerequisites]({{ site.url }}{{ site.baseurl }}/program#Prerequisites) with corresponding teaching resources to cover fundamental concepts. Successful participants will earn **4 ECTS credits** (might depend on your university, check with your local coordinator!).
 
 ### Contact person for information
 Prof. Dr. Carl Herrmann – IPMB carl.herrmann@uni-heidelberg.de
