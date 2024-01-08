@@ -5,3 +5,4 @@
 {% for article in site.data.all_news limit:9 %}
 <p>{{ article.date }}<br>{{ article.headline | markdownify}}</p>
 {% endfor %}
+
