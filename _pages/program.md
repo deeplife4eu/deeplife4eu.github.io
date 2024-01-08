@@ -6,7 +6,7 @@ sitemap: false
 permalink: /program
 ---
 
-# Program
+## Program
 
 This course will be organized in 4 blocks over 14 weeks (start: week of 26.02.2024)
 
@@ -22,7 +22,7 @@ The course format will comprise a weekly **90-minute online lecture** and a **we
 The course will end with a 2-day workshop and [hackathon meeting](#Hackathon) in Heidelberg in June 2024 during which students will be able to implement a short project and listen to scientific lectures.
 
 
-# Prerequisites {#Prerequisites}
+## Prerequisites {#Prerequisites}
 
 Students attending this course are expected to have some basic statistics knowledge and machine-learning fundamentals. 
 Recommended books are among others:
@@ -55,7 +55,13 @@ Specifically, we expect that the following concepts are familiar:
 * matrix algebra
 
 
-# Schedule of lectures
+## Schedule of lectures
+
+
+[please as a table format here!]
+
+| Date | Title | Lecturer | Content | Link to slides | Link to practical | 
+|----|----|----|----|----|----|
 
 
 
