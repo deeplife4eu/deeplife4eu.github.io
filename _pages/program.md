@@ -22,19 +22,42 @@ The course format will comprise a weekly **90-minute online lecture** and a **we
 The course will end with a 2-day workshop and [hackathon meeting](#Hackathon) in Heidelberg in June 2024 during which students will be able to implement a short project and listen to scientific lectures.
 
 
-### Evaluation
-Evaluation will be based on a final **online exam** and the assessment of **practical exercise assignments**. Successful participants will earn 4 ECTS credits.
+# Prerequisites {#Prerequisites}
+
+Students attending this course are expected to have some basic statistics knowledge and machine-learning fundamentals. 
+Recommended books are among others:
+
+1. [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow, Bengio, Courville
+2. [The Elements of Statistical Learning](https://hastie.su.domains/Papers/ESLII.pdf) by Hastie, Tibshirani, Friedman
+3. [An Introduction to Statistical Learning](https://www.statlearning.com/) by Hastie, Tibshirani, Friedman (a simpler version of the previous book)
+
+Specifically, we expect that the following concepts are familiar:
+
+#### basic statistics 
+
+* accuracy
+* sensitivity/specificity
+* area under the curve (AUC)
+* probability distributions
+* random variable
+* expectation of a random variable
+
+#### machine-learning
+
+* overfitting vs. underfitting
+* cross-validation
+* usage of training, validation and testing datasets
+* classification vs. regression (supervised vs. unsupervised)
+* binary vs. multi-class classification
+
+#### mathematical foundations
+
+* matrix algebra
 
 
-## Lecture Materials
-The [lecture materials]({{ site.url }}{{ site.baseurl }}/lecture_material) for the **practical sessions** can be found on [Github](https://github.com/deeplife4eu/Lecture-materials). The **online lectures** are uploaded on [Youtube](YT link) (pre-recorded lectures) or take place via **Zoom** (live lectures).
-
-<br>
+# Schedule of lectures
 
 
-## 0 - Prerequisites
-
-Ahead of the course, we will provide a list of [prerequisites]({{ site.url }}{{ site.baseurl }}/lecture_material#Prerequisites) and the [relevant teaching resources]({{ site.url }}{{ site.baseurl }}/lecture_material#Relevant_teaching_resources) to cover fundamental concepts.
 
 ## 1 - Basic concepts in deep learning {#Part1}
 
