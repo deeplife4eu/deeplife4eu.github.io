@@ -35,7 +35,7 @@ This course will be organized in 4 blocks over 14 weeks (start: week of 26.02.20
 
 Check the [program]({{ site.url }}{{ site.baseurl }}/program) for details.
 
-The course format will comprise a [weekly 90-minute online lecture]({{ site.url }}{{ site.baseurl }}/lecture_material#Online_lectures) and a [weekly hybrid (in-person/online) practical Python session]({{ site.url }}{{ site.baseurl }}/lecture_material#Practical_sessions). 
+The course format will comprise a weekly **90-minute online lecture** and a weekly **hybrid (in-person/online) practical Python session**. 
 
 Lectures will be given online by [teachers]({{ site.url }}{{ site.baseurl }}/team) from all participating universities. Lectures and practical exercises on all three application areas will be centered around one recent publication illustrating a specific application and method. 
 <br>

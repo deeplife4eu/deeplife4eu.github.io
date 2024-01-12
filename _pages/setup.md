@@ -6,12 +6,11 @@ sitemap: false
 permalink: /setup/
 ---
 
-### Conda 
+## Google Colab
+We recommend to use [Google Colaboratory](https://colab.research.google.com/#) for practical sessions. For this, you will need a **personal Google account**. <br>
 
-### Docker 
-
-### Jupyter Lab
-
-
+<br>
+<br>
+<br>
 <br>
 <br>
