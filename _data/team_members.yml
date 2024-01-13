@@ -25,6 +25,7 @@
 - name: Dario Malchiodi 	
   university: University of Milano	
   description: Dario Malchiodi is an associate professor at the Department of Computer Science, University of Milan and visiting scientist at Université de la Côte d'Azur, France. His research activities focus on the treatment of uncertainty in machine learning, with particular focus to data-driven induction of fuzzy sets, compression of machine learning models, mining of knowledge bases in semantic Web, and in the application of machine learning to the fields of bioinformatics, medicine, forensics, veterinary, and cultural heritage. He authored and co-authored more than one hundred publications, and participated in the activities of ten research projects and research groups, both at national and international level.
+  website: https://malchiodi.di.unimi.it/
   highlight: 1
   
 - name: Elodie Laine 	
