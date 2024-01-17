@@ -49,7 +49,7 @@ DeepLife is designed for master’s students from the participating universities
 Prof. Dr. Carl Herrmann – IPMB carl.herrmann@uni-heidelberg.de
 <br>
 
-Registration: sabrina.wetzel@uni-heidelberg.de
+Registration: Contact your local coordinator; Registration for Heidelberg students: sabrina.wetzel@uni-heidelberg.de
 
 <br>
 <br>
