@@ -30,8 +30,8 @@
   
 - name: Elodie Laine 	
   university: Sorbonne University	
-  description: 
-  website: 
+  description: Elodie Laine is professor at Sorbonne University's Life Sciences Department. She works in the laboratory of Computational and Quantitative Biology, in Paris, France. She teaches programming, algorithmic, bioinformatics, and AI to students from all levels, with backgrounds in biology, computer science, physics, and medicine. Her research activities addresses questions such as how do proteins fold, move, and associate? How did they evolve? What are the mechanisms responsible for their misfunction? How can computational methods guide biological intervention and the design of better treatments? 
+  website: https://www.lcqb.upmc.fr/laine
   highlight: 1
   
 - name: Grégoire Sergeant-Perthuis 	
