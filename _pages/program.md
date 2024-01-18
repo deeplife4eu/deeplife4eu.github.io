@@ -30,8 +30,11 @@ Recommended books are among others:
 1. [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow, Bengio, Courville
 2. [The Elements of Statistical Learning](https://hastie.su.domains/Papers/ESLII.pdf) by Hastie, Tibshirani, Friedman
 3. [An Introduction to Statistical Learning](https://www.statlearning.com/) by Hastie, Tibshirani, Friedman (a simpler version of the previous book)
+4. [Machine learning with PyTorch and scikit-learn](https://www.packtpub.com/product/machine-learning-with-pytorch-and-scikit-learn/9781801819312) by Raschka, Liu, Mirjalili (a great introduction into the technical aspects of DL in pyTorch).
 
-Specifically, we expect that the following concepts are familiar:
+As the practical sessions will be mostly based on Python and pyTorch, some basic knowledge in python is required (see reference [4] for a good overview of pyTorch for example).
+
+Specifically, we expect that the following theoretical concepts are familiar:
 
 #### basic statistics 
 
@@ -49,6 +52,7 @@ Specifically, we expect that the following concepts are familiar:
 * usage of training, validation and testing datasets
 * classification vs. regression (supervised vs. unsupervised)
 * binary vs. multi-class classification
+* standard ML algorithms such as Random Forest
 
 #### mathematical foundations
 
