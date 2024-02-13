@@ -1,7 +1,6 @@
 ---
 title: "DeepLife - Team"
 layout: gridlay
-excerpt: ""
 sitemap: false
 permalink: /team/
 ---

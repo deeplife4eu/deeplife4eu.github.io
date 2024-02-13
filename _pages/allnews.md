@@ -1,7 +1,6 @@
 ---
 title: "DeepLife - News"
 layout: textlay
-excerpt: "DeepLife"
 sitemap: false
 permalink: /allnews.html
 ---

@@ -1,7 +1,6 @@
 ---
 title: "DeepLife - Setup"
 layout: textlay
-excerpt: ""
 sitemap: false
 permalink: /setup/
 ---

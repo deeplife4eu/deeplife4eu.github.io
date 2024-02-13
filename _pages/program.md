@@ -1,7 +1,6 @@
 ---
 title: "DeepLife - Program"
 layout: textlay
-excerpt: ""
 sitemap: false
 permalink: /program
 ---

@@ -1,7 +1,6 @@
 ---
 title: "DeepLife - Home"
 layout: homelay
-excerpt: ""
 sitemap: false
 permalink: /
 ---
