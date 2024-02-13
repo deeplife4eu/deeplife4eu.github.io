@@ -1,7 +1,7 @@
 - name: Bartek Wilczynski
   university:	University of Warsaw	
-  description:
-  website:
+  description: Bartek Wilczyński is an Associate Professor at the Faculty of Mathematics, Informatics and Mechanics. He is working on data analysis and modeling related to the functions of non-coding regulatory DNA sequences such as enhancers and promoters. Among other projects, he has worked on ML approaches to classification of regulatory DNA sequences as well as ML-based models for predicting the transcriptional output of gen loci based on epigenetic data. 
+  website: http://regulomics.mimuw.edu.pl
   highlight: 1
 
 - name: Britta Velten	
