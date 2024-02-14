@@ -48,8 +48,8 @@
   
 - name: Karl Rohr
   university: Heidelberg University	
-  description: 
-  website: 
+  description: Karl Rohr is Head of the Biomedical Computer Vision group and Associate Professor at the BioQuant Center and the IPMB of Heidelberg University. He studied Electrical Engineering at the University of Karlsruhe (KIT) and received his Ph.D. degree as well as his Habilitation degree in Computer Science from the University of Hamburg. His research interests are in biomedical image analysis with focus on segmentation, tracking, and image registration for microscopy image analysis. He has published more than 300 peer-reviewed scientific articles and was Program Chair of the IEEE International Symposium on Biomedical Imaging (ISBI) 2016. 
+  website: http://www.bioquant.uni-heidelberg.de/bmcv
   highlight: 1
   
 - name: Marco Frasca	
