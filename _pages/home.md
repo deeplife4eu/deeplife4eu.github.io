@@ -23,6 +23,12 @@ As part of the **Seed4EU+ action within the [4EU+ alliance](https://4euplus.eu/4
 2. protein bioinformatics
 3. biomedical image analysis.
 
+### Important links:
+
+* [GitHub repo with course material](https://github.com/deeplife4eu/Lecture-materials)
+* [Discussion forum](https://github.com/orgs/deeplife4eu/discussions)
+* [Private repo for supervisors](https://github.com/deeplife4eu/notebooks-solutions)
+
 ### Organization
 This course will be organized in 4 blocks over 14 weeks (start: week of 26.02.2024)
 <br>
