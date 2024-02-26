@@ -60,7 +60,7 @@ Specifically, we expect that the following theoretical concepts are familiar:
 
 ## Schedule of lectures
 
-[Zoom link to weekly online lectures](https://eu02web.zoom-x.de/j/69290726331?pwd=YmZ1aWd1OUFaUUpRNzJKeG5sbmF6dz09)
+[Zoom link to weekly online lectures](https://eu02web.zoom-x.de/j/69290726331)
 
 {% include program_table.html %}
 
