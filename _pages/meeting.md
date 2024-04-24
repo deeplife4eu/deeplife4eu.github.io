@@ -27,6 +27,8 @@ We will have a guest lecture by [Prof. Dr. Rebecca Wade](https://www.h-its.org/p
 * Heidelberg is ~3 hours by TGC/ICE from Paris (via Mannheim or Karlsruhe)
 * for those coming by place, Frankfurt Airport is the closest airport; Heidelberg can be reached by train in ~1 hour.
 
+![map of the campus](./images/map.png)
+
 ## Hotels/accommodations
 
 You can find a list of hotels/accommodations in [this document](./downloads/hotels.pdf)
