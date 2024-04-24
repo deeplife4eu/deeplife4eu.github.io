@@ -16,7 +16,7 @@ During the Hackathon, the teams which have worked on the same project will work 
 
 ### Schedule
 
-** !! preliminary schedule !!**
+**!! preliminary schedule !!**
 
 We will have a guest lecture by [Prof. Dr. Rebecca Wade](https://www.h-its.org/people/prof-dr-rebecca-wade/) from HITS Heidelberg on Friday night.
 
@@ -24,12 +24,14 @@ We will have a guest lecture by [Prof. Dr. Rebecca Wade](https://www.h-its.org/p
 
 ### Coming to Heidelberg
 
+The hackathon will take place on the Campus Neuenheimer Feld, in the **BioQuant** (Im Neuenheimer Feld 267) and **IPMB** (Im Neuenheimer Feld 364).
+
 * Heidelberg is ~3 hours by TGC/ICE from Paris (via Mannheim or Karlsruhe)
 * for those coming by place, Frankfurt Airport is the closest airport; Heidelberg can be reached by train in ~1 hour.
 
 ![map of the campus](./images/map.png)
 
-## Hotels/accommodations
+### Hotels/accommodations
 
 You can find a list of hotels/accommodations in [this document](./downloads/hotels.pdf)
 The youth hostel is in walking distance to the campus. Some of the other hotels are downtown (the old town is ~20-30 minutes walking from campus).
