@@ -18,7 +18,7 @@ During the team until the Hackathon, you will be working on a project you will s
 
 Please select one of the projects and **register with your team (around 4 students)** on [this Google sheet](https://docs.google.com/spreadsheets/d/1luBPy-fDefvgnUs2LXGkZLd_PpWouIxq88bNEUeYwTY/edit?usp=sharing).
 
-**Please note: registration will open Friday 10.05 at 12am**
+**Please note: registration will open Monday 13.05 at 12am**
 
 During the Hackathon, teams from different universities who have worked on the same project will work together to compare their results and prepare a common poster presentation (check the [Hackathon page](../meeting.html) for more details)
 
