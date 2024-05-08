@@ -8,7 +8,7 @@ permalink: /meeting
 # DeepLife Hackathon - Heidelberg 14.-16.06.2024
 
 
-![heidelberg](./images/heidelberg.png)
+<img src="./images/heidelberg.png" alt="drawing" width="200"/>
 
 Our final hackathon meeting will take place in Heidelberg from **Friday, June 14th until Sunday, June 15th**!! Looking forward welcoming you in Heidelberg to finalize the projects.
 
