@@ -8,14 +8,14 @@ permalink: /meeting
 # DeepLife Hackathon - Heidelberg 14.-16.06.2024
 
 
-<img src="./images/heidelberg.png" alt="drawing" width="200"/>
+<img src="./images/heidelberg.png" alt="drawing" width="750"/>
 
 Our final hackathon meeting will take place in Heidelberg from **Friday, June 14th until Sunday, June 15th**!! Looking forward welcoming you in Heidelberg to finalize the projects.
 
 
 ### Concept
 
-We will publish a list of projects early May. Teams of ~4 students from one university will form and select none pf the projects to work on. Several teams for different universities will therefore work in parallel on the same projects!
+We will publish [a list of projects early May **(projects are online!!)**](./projects.html). Teams of ~4 students from one university will form and select none pf the projects to work on. Several teams for different universities will therefore work in parallel on the same projects!
 
 During the Hackathon, the teams which have worked on the same project will work together to discuss and compare their results, and run their model on a new testing data. In addition, the teams will prepare a poster (made of 8 A4 sheets) which will be presented during the poster session on Sunday morning.
 
