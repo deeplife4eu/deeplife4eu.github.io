@@ -5,6 +5,8 @@ sitemap: false
 permalink: /projects
 ---
 
+# DeepLife projects
+
 During the team until the Hackathon, you will be working on a project you will select within a list of 6 projects:
 
 1. Project 01: <a href="https://github.com/deeplife4eu/Lecture-materials/tree/main/projects/Project01_multimodalVAE.ipynb">multimodal VAEs</a>
