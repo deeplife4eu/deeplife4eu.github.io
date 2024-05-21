@@ -68,13 +68,14 @@ pwd
 Follow these steps to connect to your server on VS Code:
 
 1. CMD + SHIFT + P > Remote-SSH: Connect to Host > Add new SSH Host ...
-   ![img](./images/connect_shh.png)
+   <img src="./images/connect_shh.png" alt="drawing" width="600"/>
 2. Paste the command you use to connect via ssh (change _username_ and _denbiX_ to match your user name and instance)
-   ![img](./images/ssh_command.png)
+    <img src="./images/ssh_command.png" alt="drawing" width="600"/>
+
 3. Select a SSH config to update
-   ![img](./images/select_config.png)
+    <img src="./images/select_config.png" alt="drawing" width="600"/>
 4. Open your SSH configuration file
-   ![img](./images/open_config.png)
+    <img src="./images/open_config.png" alt="drawing" width="600"/>
 5. And edit the entry in the following way:
 
 ```
@@ -93,7 +94,7 @@ IdentityFile ~/path/to/you/private/key
 This will likely look something like this: `~/.ssh/key_name`
 
 6. Then you can finally connect to your host by running **CMD + SHIFT + P > Remote-SSH: Connect to Host** and selecting your HostName. After that you will be prompted for your password. After that you are connected to the workstation!
-   ![img](./images/enter_password.png)
+    <img src="./images/enter_password.png" alt="drawing" width="600"/>
 
 ### TMUX
 
