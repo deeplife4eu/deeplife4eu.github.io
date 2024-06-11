@@ -10,7 +10,8 @@ permalink: /meeting
 
 <img src="./images/heidelberg.png" alt="drawing" width="750"/>
 
-Our final hackathon meeting will take place in Heidelberg from **Friday, June 14th until Sunday, June 15th**!! Looking forward welcoming you in Heidelberg to finalize the projects.
+Our final hackathon meeting will take place in Heidelberg from **Friday, June 14th until Sunday, June 16th**!! Looking forward welcoming you in Heidelberg to finalize the projects.
+
 
 
 ### Concept
@@ -21,9 +22,9 @@ During the Hackathon, the teams which have worked on the same project will work 
 
 ### Schedule
 
-**!! preliminary schedule !!**
+The Hackathon will start at 2pm on Friday, 14th in BioQuant, Room SR041. There will be signs at the entrance of the BioQuant building. Registration can be done between 1pm and 2pm at the welcome desk in BioQuant.
 
-We will have a guest lecture by [Prof. Dr. Rebecca Wade](https://www.h-its.org/people/prof-dr-rebecca-wade/) from HITS Heidelberg on Friday night.
+We will have a guest lecture by [Prof. Dr. Rebecca Wade](https://www.h-its.org/people/prof-dr-rebecca-wade/) from HITS Heidelberg on Friday night (5pm) **"Towards synergizing Molecular Simulation and Machine Learning for Structure-based Drug Design"**.
 
 ![hackathon](./images/hackathon.png)
 
