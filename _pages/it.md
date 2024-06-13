@@ -4,21 +4,20 @@ layout: textlay
 sitemap: false
 permalink: /it
 ---
+
 # Using the Shared GPU Infrastructure
 
 ## Available Infrastructure
 
-In total we will be able to use 2 workstations with 80GB of RAM and 8vCPU cores. Each station has a NVIDIA V100 GPU with 32GB of memory. These workstations are shared by all teams, so please be mindful of the compute needed by your scripts. All workstations come with CUDA v11.0 pre-installed, so you should be able to use the GPUs in your script without needing to install any drivers.
+In total we will be able to use 4 workstations with 80GB of RAM and 8vCPU cores. Each station has a NVIDIA V100 GPU with 32GB of memory. These workstations are shared by all teams, so please be mindful of the compute needed by your scripts. All workstations come with CUDA v11.0 pre-installed, so you should be able to use the GPUs in your script without needing to install any drivers.
 
-Each Node currently comes with 100GB of disk space which can be extended if more space is needed to fit your data. However due to the limitations in total space we can provide as of now. Please consider using the same raw datasets as other teams working on the same project.
+All nodes share a 500GB harddisk so data can be exchanged between all instances. Further the instances denbi1 and denbi2 have a dedicated resizable volume of 100GB each, which can be made larger, if needed. For better collaboration we recommend using the shared disk.
 
 The nodes are not configured as a cluster so you will only be able to use one GPU at a time.
 
 ### Future Updates
 
 **More Workstations:** In total we got access to 6 of the workstations described above and are waiting for the final provisioning of those resources, meaning they should be available by the end of this week.
-
-**Shared Storage:** As of now each workstation has a separate Block Storage which means you should keep using the same instance to avoid having copies of data on multiple machines. However we already asked for the provisioning of shared storage instances which should also be available by the end of this week.
 
 Keep an eye on this site for updates to the available infrastructure.
 
@@ -47,10 +46,10 @@ If you are working with the servers there are 3 key elements:
 
 ## Storing Data
 
-Currently only one volume is mounted on each machine. You can find this volume under:
+There is one shared volume that can be used across all machines. You can find this volume under:
 
 ```bash
-cd /mnt/volume
+cd /mnt/quobyte
 ```
 
 Please create a folder for your project and within the project folder sub-folders for each group working on that project to make sharing data between groups easier and keeping the volume clean.
@@ -68,14 +67,13 @@ pwd
 Follow these steps to connect to your server on VS Code:
 
 1. CMD + SHIFT + P > Remote-SSH: Connect to Host > Add new SSH Host ...
-   <img src="./images/connect_shh.png" alt="drawing" width="600"/>
+   ![img](./connect_shh.png)
 2. Paste the command you use to connect via ssh (change _username_ and _denbiX_ to match your user name and instance)
-    <img src="./images/ssh_command.png" alt="drawing" width="600"/>
-
+   ![img](./ssh_command.png)
 3. Select a SSH config to update
-    <img src="./images/select_config.png" alt="drawing" width="600"/>
+   ![img](./select_config.png)
 4. Open your SSH configuration file
-    <img src="./images/open_config.png" alt="drawing" width="600"/>
+   ![img](./open_config.png)
 5. And edit the entry in the following way:
 
 ```
@@ -94,7 +92,7 @@ IdentityFile ~/path/to/you/private/key
 This will likely look something like this: `~/.ssh/key_name`
 
 6. Then you can finally connect to your host by running **CMD + SHIFT + P > Remote-SSH: Connect to Host** and selecting your HostName. After that you will be prompted for your password. After that you are connected to the workstation!
-    <img src="./images/enter_password.png" alt="drawing" width="600"/>
+   ![img](./enter_password.png)
 
 ### TMUX
 
@@ -137,7 +135,7 @@ docker pull pytorch/pytorch
 Finally start your container using
 
 ```bash
-docker run --gpus all --rm -it -v /mnt/volume/path/to/your/project/:$HOME pytorch/pytorch /bin/bash
+docker run --network host --gpus all --rm -it -v /mnt/volume/path/to/your/project/:$HOME pytorch/pytorch /bin/bash
 ```
 
 this will start a container and push you to the bash of that container so you can now call and execute your scripts.
@@ -185,7 +183,7 @@ Within the directory create a file: `devcontainer.json`
   // },
 
   // Specify under which name the devcontainer should be run and which GPUs to use
-  "runArgs": ["--name", "dev_yourname", "--gpus", "all"],
+  "runArgs": ["--name", "dev_yourname", "--gpus", "all", , "--network", "host"],
 
   // Specify where workspace directory is mounted in the devcontainer
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
