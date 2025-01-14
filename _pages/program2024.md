@@ -7,25 +7,23 @@ permalink: /program
 
 ## Program
 
-This course will be organized in 3 blocks over 8 weeks (start: week of 24.02.2025)
+This course will be organized in 4 blocks over 14 weeks (start: week of 26.02.2024)
 
-1. DL in single-cell genomics – 3 weeks
-2. DL in protein bioinformatics - 4 weeks
-3. DL in image analysis – 3 weeks
+1. Basic concepts in deep learning – 4 weeks
+2. DL in single-cell genomics – 3 weeks
+3. DL in protein bioinformatics - 4 weeks
+4. DL in image analysis – 3 weeks
 <br>
 
-The course format will comprise a weekly **60-minute online lecture** and a **weekly hybrid (in-person/online) practical Python session**. Lectures will be given by [teachers]({{ site.url }}{{ site.baseurl }}/team) from all participating universities. Lectures and practical exercises on all three application areas will be centered around one **recent publication** illustrating a specific application and method.
+The course format will comprise a weekly **90-minute online lecture** and a **weekly hybrid (in-person/online) practical Python session**. Lectures will be given by [teachers]({{ site.url }}{{ site.baseurl }}/team) from all participating universities. Lectures and practical exercises on all three application areas will be centered around one **recent publication** illustrating a specific application and method.
 <br>
 
-The course will end with a 2-day workshop and **hackathon meeting** in Heidelberg on **May 30/31-June 1st 2025** during which students will be able to implement a short project and listen to scientific lectures.
+The course will end with a 2-day workshop and **hackathon meeting** in Heidelberg in June 2024 during which students will be able to implement a short project and listen to scientific lectures.
 
 
 ## Prerequisites {#Prerequisites}
 
-
 Students attending this course are expected to have some basic statistics knowledge and machine-learning fundamentals. 
-You can use the lecture material from last year's edition, in particular the four introductory lectures 
-
 Recommended books are among others:
 
 1. [Deep Learning book](https://www.deeplearningbook.org/) by Goodfellow, Bengio, Courville
@@ -64,7 +62,7 @@ Specifically, we expect that the following theoretical concepts are familiar:
 
 [Zoom link to weekly online lectures](https://eu02web.zoom-x.de/j/69290726331)
 
-{% include program_table.html %}
+{% include program_table2024.html %}
 
 <br>
 <br>
