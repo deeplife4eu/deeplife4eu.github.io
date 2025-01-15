@@ -2,7 +2,7 @@
 title: "DeepLife - Hackathon"
 layout: textlay
 sitemap: false
-permalink: /meeting
+permalink: /meeting2024
 ---
 
 # DeepLife Hackathon - Heidelberg 14.-16.06.2024

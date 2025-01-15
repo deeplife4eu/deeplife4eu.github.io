@@ -2,7 +2,7 @@
 title: "DeepLife - Program"
 layout: textlay
 sitemap: false
-permalink: /program
+permalink: /program2024
 ---
 
 ## Program

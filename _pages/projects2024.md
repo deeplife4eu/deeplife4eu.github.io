@@ -2,7 +2,7 @@
 title: "DeepLife - Hackathon"
 layout: textlay
 sitemap: false
-permalink: /projects
+permalink: /projects2024
 ---
 
 # DeepLife projects
