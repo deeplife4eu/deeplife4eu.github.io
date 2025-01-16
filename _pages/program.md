@@ -20,7 +20,7 @@ The course format will comprise a weekly **60-minute online lecture** and a **we
 The course will end with a 2-day workshop and **hackathon meeting** in Heidelberg on **May 30/31-June 1st 2025** during which students will be able to implement a short project and listen to scientific lectures.
 
 
-## Prerequisites {#Prerequisites}
+### Prerequisites {#Prerequisites}
 
 
 Students attending this course are expected to have some basic statistics knowledge and machine-learning fundamentals. 
@@ -63,7 +63,7 @@ Specifically, we expect that the following theoretical concepts are familiar:
 * matrix algebra
 
 
-## Preliminary schedule of lectures
+### Preliminary schedule of lectures
 
 
 {% include program_table.html %}

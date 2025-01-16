@@ -33,11 +33,6 @@ As part of the **Seed4EU+ action within the [4EU+ alliance](https://4euplus.eu/4
 2. protein bioinformatics
 3. biomedical image analysis.
 
-### Important links:
-
-* [GitHub repo with course material](https://github.com/deeplife4eu/Lecture-materials)
-* [Discussion forum](https://github.com/orgs/deeplife4eu/discussions)
-* [Private repo for supervisors](https://github.com/deeplife4eu/notebooks-solutions)
 
 ### Organization
 This course will be organized in 3 blocks over 8 weeks (start: week of 24.02.2025)
@@ -49,7 +44,7 @@ This course will be organized in 3 blocks over 8 weeks (start: week of 24.02.202
 
 Check the [program]({{ site.url }}{{ site.baseurl }}/program) for details.
 
-The course format will comprise a weekly **90-minute online lecture** and a weekly **hybrid (in-person/online) practical Python session**. 
+The course format will comprise a weekly **60-minute online lecture** and a weekly **hybrid (in-person/online) practical Python session**. 
 
 Lectures will be given online by [teachers]({{ site.url }}{{ site.baseurl }}/team) from all participating universities. Lectures and practical exercises on all three application areas will be centered around one recent publication illustrating a specific application and method. 
 <br>
