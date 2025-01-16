@@ -24,7 +24,10 @@ The course will end with a 2-day workshop and **hackathon meeting** in Heidelber
 
 
 Students attending this course are expected to have some basic statistics knowledge and machine-learning fundamentals. 
-You can use the lecture material from last year's edition, in particular the four introductory lectures 
+You can use the lecture material from last year's edition, in particular the four introductory lectures:
+
+{% include intro_lectures.html %}
+
 
 Recommended books are among others:
 
@@ -60,9 +63,8 @@ Specifically, we expect that the following theoretical concepts are familiar:
 * matrix algebra
 
 
-## Schedule of lectures
+## Preliminary schedule of lectures
 
-[Zoom link to weekly online lectures](https://eu02web.zoom-x.de/j/69290726331)
 
 {% include program_table.html %}
 
