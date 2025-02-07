@@ -14,6 +14,9 @@ This course will be organized in 3 blocks over 8 weeks (start: week of 24.02.202
 3. DL in image analysis – 3 weeks
 <br>
 
+**Note that lectures will start at 5pm sharp; from 4.30pm until 5pm, there will be a debrief of the exercise sheet of the previous week!**
+
+
 The course format will comprise a weekly **60-minute online lecture** and a **weekly hybrid (in-person/online) practical Python session**. Lectures will be given by [teachers]({{ site.url }}{{ site.baseurl }}/team) from all participating universities. Lectures and practical exercises on all three application areas will be centered around one **recent publication** illustrating a specific application and method.
 <br>
 
