@@ -68,6 +68,9 @@ Specifically, we expect that the following theoretical concepts are familiar:
 
 ### Preliminary schedule of lectures
 
+[Link to the weekly Zoom lecture](https://eu02web.zoom-x.de/j/68946797163) **(Note: you will get the passphrase to join the meeting from your local instructor!)**
+
+**Note that lectures start at 5pm; from 4.30 until 5pm, there will be a short debrief of the exercise sheet of the previous week!**
 
 {% include program_table.html %}
 
