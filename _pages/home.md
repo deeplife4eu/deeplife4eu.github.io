@@ -36,10 +36,10 @@ As part of the **Seed4EU+ action within the [4EU+ alliance](https://4euplus.eu/4
 
 
 ### Organization
-This course will be organized in 3 blocks over 8 weeks (start: week of 24.02.2025)
+This course will be organized in 3 blocks over 9 weeks (start: week of 24.02.2025)
 <br>
 1. DL in single-cell genomics – 3 weeks
-2. DL in protein bioinformatics - 3 weeks
+2. DL in protein bioinformatics - 4 weeks
 3. DL in image analysis – 2 weeks
 <br>
 

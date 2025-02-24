@@ -7,11 +7,11 @@ permalink: /program
 
 ## Program
 
-This course will be organized in 3 blocks over 8 weeks (start: week of 24.02.2025)
+This course will be organized in 3 blocks over 9 weeks (start: week of 24.02.2025)
 
 1. DL in single-cell genomics – 3 weeks
 2. DL in protein bioinformatics - 4 weeks
-3. DL in image analysis – 3 weeks
+3. DL in image analysis – 2 weeks
 <br>
 
 **Note that lectures will start at 5pm sharp; from 4.30pm until 5pm, there will be a debrief of the exercise sheet of the previous week!**
