@@ -9,12 +9,12 @@ permalink: /projects
 
 During the team until the Hackathon, you will be working on a project you will select within a list of 6 projects:
 
-1. Project 01: <a href="https://drive.google.com/file/d/1v1Gw10JMSUZ35BGsZvUDVEfJavNmTGsS/view?usp=sharing">Interpretable VAEs (Carl Herrmann)</a>
-2. Project 02: <a href="https://drive.google.com/file/d/1n6zgOUogpQHNygm3yZUf10UuPZgRbJJY/view?usp=sharing">multimodal factor analysis (Britta Velten)</a>
-3. Project 03: <a href="https://drive.google.com/file/d/1kBY2Xw2eIzaZF3prphxxS3yI9bGENHuj/view?usp=sharing"> CNN-based cell segmentation in multi-modal images (Karl Rohr)</a>
-4. Project 04: <a href="https://drive.google.com/file/d/1ELUtKVQuUteK4oHxbtA6N5ei9A7AQbeZ/view?usp=sharing">Cell image segmentation using deep learning (Elena Casiraghi)</a>
-5. Project 05: <a href="https://drive.google.com/file/d/1jz-nDm5gIF_mTkin7RQ1fw4XV7j_v_ti/view?usp=sharing">prediction on protein-ligand binding sites (David Hoksza)</a>
-6. Project 06: <a href="https://drive.google.com/file/d/1LccWeilpDt8sFNFh1FU6ijz90F5DQlUE/view?usp=sharing">protein function classification using DL (Joanna Sulkowska)</a>
+1. Project 01: <a href="https://colab.research.google.com/drive/1v1Gw10JMSUZ35BGsZvUDVEfJavNmTGsS">Interpretable VAEs (Carl Herrmann)</a>
+2. Project 02: <a href="https://colab.research.google.com/drive/1n6zgOUogpQHNygm3yZUf10UuPZgRbJJY">multimodal factor analysis (Britta Velten)</a>
+3. Project 03: <a href="https://colab.research.google.com/drive/1kBY2Xw2eIzaZF3prphxxS3yI9bGENHuj"> CNN-based cell segmentation in multi-modal images (Karl Rohr)</a>
+4. Project 04: <a href="https://colab.research.google.com/drive/1ELUtKVQuUteK4oHxbtA6N5ei9A7AQbeZ">Cell image segmentation using deep learning (Elena Casiraghi)</a>
+5. Project 05: <a href="https://colab.research.google.com/drive/1jz-nDm5gIF_mTkin7RQ1fw4XV7j_v_ti">prediction on protein-ligand binding sites (David Hoksza)</a>
+6. Project 06: <a href="https://colab.research.google.com/drive/1LccWeilpDt8sFNFh1FU6ijz90F5DQlUE">protein function classification using DL (Joanna Sulkowska)</a>
 
 Please select one of the projects and **register with your team (around 4 students)** on [this Google sheet](https://docs.google.com/spreadsheets/d/1luBPy-fDefvgnUs2LXGkZLd_PpWouIxq88bNEUeYwTY/edit?usp=sharing).
 
