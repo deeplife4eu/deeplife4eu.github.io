@@ -6,35 +6,27 @@ permalink: /it
 ---
 
 # Using the Shared GPU Infrastructure
+In case of problems contact: paul.brunner@stud.uni-heidelberg.de
 
 ## Available Infrastructure
 
-In total we will be able to use 4 workstations with 80GB of RAM and 8vCPU cores. Each station has a NVIDIA V100 GPU with 32GB of memory. These workstations are shared by all teams, so please be mindful of the compute needed by your scripts. All workstations come with CUDA v11.0 pre-installed, so you should be able to use the GPUs in your script without needing to install any drivers.
+In total we will be able to use 4 workstations with 128GB of RAM and 32vCPU cores each. Each station has a NVIDIA T4 GPU. These workstations are shared by all teams, so please be mindful of the compute power needed by your scripts. All workstations come with CUDA pre-installed, so you should be able to use the GPUs in your script without needing to install any drivers.
 
-All nodes share a 500GB harddisk so data can be exchanged between all instances. Further the instances denbi1 and denbi2 have a dedicated resizable volume of 100GB each, which can be made larger, if needed. For better collaboration we recommend using the shared disk.
+Each node features a 500GB disk, where all your data can be saved. 
 
-The nodes are not configured as a cluster so you will only be able to use one GPU at a time.
+The nodes are not configured as a cluster so you will only be able to use one GPU at a time. You will also only be assigned to one node in the beginning, which will be the only one you have access to. We try our best to balance the number of teams per node, in order to limit the computational strain.
 
-### Future Updates
-
-**More Workstations:** In total we got access to 6 of the workstations described above and are waiting for the final provisioning of those resources, meaning they should be available by the end of this week.
-
-Keep an eye on this site for updates to the available infrastructure.
 
 ## Accessing the Servers
 
-For access to the servers you will receive an email specifying your username and a password as well as the names of the instances you will have access to. To log in use the following command:
+To gain access to the nodes, generate an ssh key pair and send the public key to paul.brunner@stud.uni-heidelberg.de along with your name and project so we can create your user account and add the ssh key to your account. You will receive an e-mail listing the IP address to the node you were assigned to. Please be mindful of the resources and try to limit the amount of users per team to a minimum. As only one GPU is available per node anyway, only a limited amount of users can work at the same time.
 
 ```bash
-ssh 'YOUR_USERNAME:INSTANCE_NAME@deeplife.tjh28.com' -p 2222
-# Instance names will be denbi1, denbi2, ...
+ssh 'YOUR_USERNAME@IP_ADRESS_FROM_EMAIL' -p "PORT_FROM_EMAIL" -i path/to/your/private/key/file
 ```
 
-After this command you will be prompted for your password, then you should be connected to your instance.
+You will get asked whether to trust the server, when first connecting. Accept it by typing in yes.
 
-Always use port 2222 for connecting, as the server is configured to only accept incoming connections through this port.
-
-If you prefer to connect with ssh key pairs, generate an ssh key pair and send the public key to paul.brunner@stud.uni-heidelberg.de along with your assigned user name so I can add the ssh key to your account.
 
 ## Using the Servers
 
@@ -46,15 +38,23 @@ If you are working with the servers there are 3 key elements:
 
 ## Storing Data
 
-There is one shared volume that can be used across all machines. You can find this volume under:
+There is one large volume per node, where you can store your data. This is also where your home directories are located under 'home'. You can find this volume under:
 
 ```bash
-cd /mnt/quobyte
+cd /vol/data
+cd /vol/data/home/YOUR_USERNAME # Your own home directory
 ```
 
-Please create a folder for your project and within the project folder sub-folders for each group working on that project to make sharing data between groups easier and keeping the volume clean.
+**All files, code and data, for your project should be stored on this volume!** As the volumes are persistent and can be attached and detached from different machines. **Avoid storing data on the machines disk at all cost as it is only 20GB in size!**
 
-**All files, code and data, for your project should be stored on this volume!** As the volumes are persistent and can be attached and detached from different machines. Avoid storing data on the machines disk at all cost as it is only 20GB in size.
+If you need to share files with other people on the same node, make sure to assign the access rights for the files and directories correctly:
+
+```
+chmod -v 660 FILENAME # owner and group can read and write - all others not
+chmod -v 666 FILENAME # everyone can read and write
+chmod -v 640 FILENAME # owner can read and write - group only read
+```
+More information can be found here: https://linuxize.com/post/chmod-command-in-linux/
 
 Later you will need the path to your projects folder to mount it as a volume to your docker container. You can get the path by cd-ing into your project directory and running:
 
@@ -68,7 +68,7 @@ Follow these steps to connect to your server on VS Code:
 
 1. CMD + SHIFT + P > Remote-SSH: Connect to Host > Add new SSH Host ...
    ![img](./connect_shh.png)
-2. Paste the command you use to connect via ssh (change _username_ and _denbiX_ to match your user name and instance)
+2. Paste the command you use to connect via ssh (change _username_ and _IP_ to match your user name and instance)
    ![img](./ssh_command.png)
 3. Select a SSH config to update
    ![img](./select_config.png)
@@ -77,22 +77,17 @@ Follow these steps to connect to your server on VS Code:
 5. And edit the entry in the following way:
 
 ```
-Host give_your_host_a_name
-	HostName deeplife.tjh28.com
-	User username:denbiX
-	Port 2222
+  Host give_your_host_a_name
+    HostName IP_of_your_node
+    User username
+    Port Port_from_email
+    IdentityFile ~/path/to/you/private/key
 ```
 
-In case you have set up a public key, you can add the following line to ensure it is used:
+  The path to the identity file will likely look something like this: `~/.ssh/key_name`. If you did not put a custom path during the generation of the key-pair and are using a UNIX-like OS (MacOS / Linux), the ssh command should find the file automatically.
 
-```
-IdentityFile ~/path/to/you/private/key
-```
-
-This will likely look something like this: `~/.ssh/key_name`
-
-6. Then you can finally connect to your host by running **CMD + SHIFT + P > Remote-SSH: Connect to Host** and selecting your HostName. After that you will be prompted for your password. After that you are connected to the workstation!
-   ![img](./enter_password.png)
+Then you can finally connect to your host by running **CMD + SHIFT + P > Remote-SSH: Connect to Host** and selecting your HostName.
+<!--   ![img](./enter_password.png)-->
 
 ### TMUX
 
@@ -118,7 +113,7 @@ a great TMUX cheat sheet can also be found here: https://tmuxcheatsheet.com
 
 ### Using Docker
 
-To isolate each projects runtime we will be using Docker. To get your relevant dependencies you can pull pre-made Docker images (with pytorch etc. already installed) from the Docker Hub.
+To isolate each projects runtime we will be using Docker. To get your relevant dependencies you can pull pre-made Docker images (with pytorch etc. already installed) from the Docker Hub. **If you have to use python and corresponding libraries please only work inside docker containers and do not install python libraries on your own (e.g. using conda). The space on the cluster is very limited, so we rely on docker containers to keep it tidy.**
 
 First check if the image your want to use is already available:
 
@@ -126,7 +121,7 @@ First check if the image your want to use is already available:
 docker images
 ```
 
-If no already installed image matches your requirements your can pull an image using:
+If none of the already installed images matches your requirements your can pull an image using:
 
 ```bash
 docker pull pytorch/pytorch
@@ -135,7 +130,7 @@ docker pull pytorch/pytorch
 Finally start your container using
 
 ```bash
-docker run --network host --gpus all --rm -it -v /mnt/volume/path/to/your/project/:$HOME pytorch/pytorch /bin/bash
+docker run --network host --gpus all --rm -it -v /vol/data/volume/path/to/your/project/:$HOME pytorch/pytorch /bin/bash
 ```
 
 this will start a container and push you to the bash of that container so you can now call and execute your scripts.
@@ -163,7 +158,7 @@ This is also just a docker container you can connect to within VSCode so all cod
 To use devcontainers within your team sub-folder create a directory: `.devcontainer`
 
 ```bash
-sudo mkdir .devcontainer
+mkdir .devcontainer
 ```
 
 Within the directory create a file: `devcontainer.json`
