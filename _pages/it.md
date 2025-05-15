@@ -34,7 +34,7 @@ After this command you will be prompted for your password, then you should be co
 
 Always use port 2222 for connecting, as the server is configured to only accept incoming connections through this port.
 
-If you prefer to connect with ssh key pairs, generate an ssh key pair and send the public key to tim.hudelmaier@stud.uni-heidelberg.de along with your assigned user name so I can add the ssh key to your account.
+If you prefer to connect with ssh key pairs, generate an ssh key pair and send the public key to paul.brunner@stud.uni-heidelberg.de along with your assigned user name so I can add the ssh key to your account.
 
 ## Using the Servers
 
