@@ -141,7 +141,7 @@ The `-v`flag is used to attach a volume (your project directory) to the containe
 
 Do not forget to use tmux when working with your containers to avoid the container closing and loosing your progress.
 
-**Please do not install python and try to run scripts on the workstation itself! Always use Docker.**
+**Please do not install python and try to run scripts on the workstation itself! Always use Docker.** Inside of the docker container, you can install all missing packages you need (e.g. using pip).
 
 You can check if your container is running as follows:
 
