@@ -113,7 +113,7 @@ a great TMUX cheat sheet can also be found here: https://tmuxcheatsheet.com
 
 ### Using Docker
 
-To isolate each projects runtime we will be using Docker. To get your relevant dependencies you can pull pre-made Docker images (with pytorch etc. already installed) from the Docker Hub. **If you have to use python and corresponding libraries please only work inside docker containers and do not install python libraries on your own (e.g. using conda). The space on the cluster is very limited, so we rely on docker containers to keep it tidy.**
+To isolate each projects runtime we will be using Docker. To get your relevant dependencies you can pull pre-made Docker images (with pytorch etc. already installed) from the Docker Hub. **If you have to use python and corresponding libraries please only work inside docker containers and only install python libraries inside of containers. The space on the cluster is very limited, so we rely on docker containers to keep it tidy.**
 
 First check if the image your want to use is already available:
 
