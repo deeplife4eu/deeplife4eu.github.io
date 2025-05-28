@@ -24,7 +24,7 @@ During the Hackathon, the teams which have worked on the same project will work 
 
 The Hackathon will start at 2pm on Friday, 30th in BioQuant, Room SR041. There will be signs at the entrance of the BioQuant building. Registration can be done between 1pm and 2pm at the welcome desk in BioQuant.
 
-We will have a guest lecture by [Dr. Jan Mathony](https://niopeklab.de/mathony-lab/) from IPMB Heidelberg on Friday night (5pm) 
+We will have a guest lecture by [Dr. Jan Mathony](https://niopeklab.de/mathony-lab/) 'Engineering Protein Switches" from IPMB Heidelberg on Friday night (5pm) 
 
 ![hackathon](./images/hackathon_2025.png)
 
