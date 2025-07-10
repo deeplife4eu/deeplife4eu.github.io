@@ -16,9 +16,7 @@ During the team until the Hackathon, you will be working on a project you will s
 5. Project 05: <a href="https://colab.research.google.com/drive/1jz-nDm5gIF_mTkin7RQ1fw4XV7j_v_ti">prediction on protein-ligand binding sites (David Hoksza)</a>
 6. Project 06: <a href="https://colab.research.google.com/drive/1LccWeilpDt8sFNFh1FU6ijz90F5DQlUE">protein function classification using DL (Joanna Sulkowska)</a>
 
-Please select one of the projects and **register with your team (around 4 students)** on [this Google sheet](https://docs.google.com/spreadsheets/d/1luBPy-fDefvgnUs2LXGkZLd_PpWouIxq88bNEUeYwTY/edit?usp=sharing).
 
-**Please note: registration will open Monday 14.04**
 
 During the Hackathon, teams from different universities who have worked on the same project will work together to compare their results and prepare a common poster presentation (check the [Hackathon page](../meeting.html) for more details)
 
