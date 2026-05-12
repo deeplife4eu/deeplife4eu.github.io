@@ -8,6 +8,9 @@ FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll site to Pages
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  
 on:
   # Runs on pushes targeting the default branch
   push:
