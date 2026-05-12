@@ -3,9 +3,12 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
+FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
+
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll site to Pages
 
+  
 on:
   # Runs on pushes targeting the default branch
   push:
@@ -62,3 +65,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
