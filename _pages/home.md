@@ -34,7 +34,7 @@ It is a follow-up of the Seed4EU+ initiative of the same name that can be found 
 
 This course will be organized in 7 weeks of advanced Journal clubs (start: week of 9.02.2026)
 
-**First date: Thursday 12 at 4:30 pm to 5:30 pm.**
+**First date: Thursday 12.02.2026 at 4:30 pm to 5:30 pm.**
 
 The journal clubs will be based on the online lectures and material that can be found here: Lectures.
 
