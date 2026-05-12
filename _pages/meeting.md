@@ -2,7 +2,7 @@
 title: "DeepLife - Hackathon"
 layout: textlay
 sitemap: false
-permalink: /meeting
+permalink: /meeting2026
 ---
 
 # DeepLife Hackathon - Heidelberg 1st June - 5th June 2026
