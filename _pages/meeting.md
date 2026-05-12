@@ -43,7 +43,7 @@ Room check-in can be done starting 1pm at the entrance desk of the Youth hostel.
 
 We will have a guest lecture by [Dr. Fabio Lolicato](https://bzh.db-engine.de/group/99/fabio%20lolicato) from the Center for Biochemistry of Heidelberg University *'The Synergistic Interplay of Protein–Lipid Interactions in Cellular Membrane Remodeling'* (5 pm Monday) 
 
-![hackathon](./images/workshop_2026.png)
+![hackathon](./images/workshop_HD2026.png)
 
 ### Coming to Heidelberg
 
