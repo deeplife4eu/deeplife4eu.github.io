@@ -37,6 +37,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Ruby
         uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
         with:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
@@ -49,10 +51,13 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
-
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+          
   # Deployment job
   deploy:
     environment:
