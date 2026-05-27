@@ -19,7 +19,7 @@ The nodes are not configured as a cluster so you will only be able to use one GP
 
 ## Accessing the Servers
 
-To gain access to the nodes, generate an ssh key pair and send the public key to paul.brunner@stud.uni-heidelberg.de along with your name and project so we can create your user account and add the ssh key to your account. You will receive an e-mail listing the IP address to the node you were assigned to. Please be mindful of the resources and try to limit the amount of users per team to a minimum. As only one GPU is available per node anyway, only a limited amount of users can work at the same time.
+To gain access to the nodes, generate an ssh key pair and send the public key to jean.radig@uni-heidelberg.de along with your name and project so we can create your user account and add the ssh key to your account. You will receive an e-mail listing the IP address to the node you were assigned to. Please be mindful of the resources and try to limit the amount of users per team to a minimum. As only one GPU is available per node anyway, only a limited amount of users can work at the same time.
 
 ```bash
 ssh 'YOUR_USERNAME@IP_ADRESS_FROM_EMAIL' -p "PORT_FROM_EMAIL" -i path/to/your/private/key/file
