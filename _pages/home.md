@@ -60,6 +60,9 @@ Here is the list of papers, for which you will have to constitute groups:
 6. De novo design of protein structure and function with RFdiffusion. Watson, J.L., Juergens, D., Bennett, N.R. et al., Nature 2023
 [https://www.nature.com/articles/s41586-023-06415-8](https://www.nature.com/articles/s41586-023-06415-8)
 
+Find the slides and summaries of the journal club sessions [here](https://drive.google.com/drive/folders/1ugYQUvqhqs4fconLbORPQnJ0k3Qp5F3R?usp=sharing)
+
+
 The associated lectures (see here [lecture]({{ site.url }}{{ site.baseurl }}/program)) associated to each paper are:
 
 1. Deep learning models for protein-ligand binding site prediction, David Hoksza (Prague)
