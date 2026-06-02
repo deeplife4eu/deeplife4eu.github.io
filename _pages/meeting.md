@@ -23,6 +23,13 @@ The final workshop will be a mix of
 During the Hackathon, the teams which have worked on the same project will work together to discuss and compare their results, and run their model on a new testing data. 
 In addition, the teams will prepare a final presentation which will take place on Friday morning of the closing day.
 
+<figure>
+<center>
+<img src="{{ site.url }}{{ site.baseurl }}/images/room.jpeg" width="70%">
+</center>
+</figure>
+
+
 ### Lectures
 
 Lectures will be given by 
