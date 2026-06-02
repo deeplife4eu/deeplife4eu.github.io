@@ -20,7 +20,7 @@ permalink: /
 
 <figure>
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/group.jpeg" width="80%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/picture_2026.jpeg" width="80%">
 </center>
 </figure>
 
